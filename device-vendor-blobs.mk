@@ -46,9 +46,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trebon/proprietary/lib/libarccamera.so:system/lib/libarccamera.so \
     vendor/samsung/trebon/proprietary/lib/libcaps.so:system/lib/libcaps.so \
     vendor/samsung/trebon/proprietary/lib/libseccamera.so:system/lib/libseccamera.so \
-    vendor/samsung/trebon/proprietary/lib/libseccameraadaptor.so:system/lib/libseccameraadaptor.so
+    vendor/samsung/trebon/proprietary/lib/libseccameraadaptor.so:system/lib/libseccameraadaptor.so\
     vendor/samsung/trebon/proprietary/lib/libs3cjpeg.so:system/lib/libs3cjpeg.so \
-    vendor/samsung/trebon/proprietary/lib/libsecjpegencoder.so:system/lib/libsecjpegencoder.so
+    vendor/samsung/trebon/proprietary/lib/libsecjpegencoder.so:system/lib/libsecjpegencoder.so\
     vendor/samsung/trebon/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/samsung/trebon/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/samsung/trebon/proprietary/lib/libgemini.so:system/lib/libgemini.so \
@@ -56,7 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trebon/proprietary/lib/libPlusMe.so:system/lib/libPlusMe.so \
     vendor/samsung/trebon/proprietary/lib/libActionShot.so:system/lib/libActionShot.so \
     vendor/samsung/trebon/proprietary/lib/libCaMotion.so:system/lib/libCaMotion.so \
-    vendor/samsung/trebon/proprietary/lib/libPlusMe.so:system/lib/libPlusMe.so \
+    vendor/samsung/trebon/proprietary/lib/libPlusMe.so:system/lib/libPlusMe.so 
     
 ## FM
 PRODUCT_COPY_FILES += \
@@ -73,10 +73,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trebon/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/samsung/trebon/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/samsung/trebon/proprietary/lib/libmmparser_divxdrmlib.so:system/lib/libmmparser_divxdrmlib.so \
-    vendor/samsung/trebon/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so
+    vendor/samsung/trebon/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so\
     vendor/samsung/trebon/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/samsung/trebon/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
-    vendor/samsung/trebon/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
+    vendor/samsung/trebon/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so 
 ## Atheros firmware
 PRODUCT_COPY_FILES += \
     vendor/samsung/trebon/proprietary/wifi/ath6k/AR6003/hw2.1.1/athtcmd_ram.bin:system/etc/firmware/ath6k/AR6003/hw2.1.1/athtcmd_ram.bin \
@@ -92,7 +92,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/trebon/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
     vendor/samsung/trebon/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/samsung/trebon/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-    vendor/samsung/trebon/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/samsung/trebon/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so 
 
 ## GPU firmware
 PRODUCT_COPY_FILES += \
